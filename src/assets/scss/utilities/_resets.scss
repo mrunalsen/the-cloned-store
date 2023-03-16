@@ -1,0 +1,21 @@
+figure {
+  margin-bottom: 0;
+}
+
+label {
+  cursor: pointer;
+}
+
+a {
+  &.reset-link {
+    text-decoration: underline;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.negative-index {
+  z-index: -1;
+}

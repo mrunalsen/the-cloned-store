@@ -1,0 +1,68 @@
+// .close-sidebar {
+//   right: 6px;
+//   top: 6px;
+// }
+
+// .backdrop {
+//   display: none;
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   right: 0;
+//   bottom: 0;
+//   z-index: 11;
+//   background-color: rgba($black, 0.5);
+// }
+
+// .sidebar {
+//   height: 100vh;
+//   width: 90%;
+//   top: 0;
+//   bottom: 0;
+//   right: 0;
+//   transform: translateX(100%);
+//   z-index: 20;
+//   transition: 0.4s all;
+
+//   .navbar-nav {
+//     .nav-link {
+//       color: $dark;
+//       line-height: 1.5rem;
+//       transition: .5 all ease-in-out;
+
+//       &:active,
+//       &.active,
+//       &:hover {
+//         color: $info;
+//       }
+//     }
+//   }
+
+// }
+
+// .hamburger {
+//   z-index: 11;
+//   right: 18px;
+//   top: 32px;
+// }
+
+// #sidebar-toggle {
+
+//   &:checked {
+//     ~#aside {
+
+//       &>.sidebar {
+//         transform: translateX(0);
+//         transition: 0.4s all;
+//       }
+//     }
+
+//     ~.backdrop {
+//       display: block;
+//     }
+//   }
+// }
+
+// .aside-brand-logo {
+//   width: $aside-brand-logo;
+// }
